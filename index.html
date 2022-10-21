@@ -37,7 +37,7 @@
         <div class="mark-all-as-read">Mark all as read</div>
       </header>
       <ul>
-        <li>
+        <li class="unread">
           <img
             src="./assets/images/avatar-mark-webber.webp"
             alt="Mark Webber"
@@ -45,13 +45,13 @@
           <div class="notification-text-area">
             <div class="notification-text-content">
               <strong class="name">Mark Webber</strong> reacted to your recent
-              post
-              <a href="" class="post"> My first tournament today! </a>
-              <p class="timestamp">1m ago</p>
+              post <a href="" class="post"> My first tournament today! </a>
+              <span class="unread-indicator"></span>
             </div>
+            <p class="timestamp">1m ago</p>
           </div>
         </li>
-        <li>
+        <li class="unread">
           <img
             src="./assets/images/avatar-angela-gray.webp"
             alt="Angela Gray"
@@ -59,11 +59,12 @@
           <div class="notification-text-area">
             <div class="notification-text-content">
               <strong class="name">Angela Gray</strong> followed you
+              <span class="unread-indicator"></span>
             </div>
             <p class="timestamp">5m ago</p>
           </div>
         </li>
-        <li>
+        <li class="unread">
           <img
             src="./assets/images/avatar-jacob-thompson.webp"
             alt="Jacob Thompson"
@@ -71,7 +72,8 @@
           <div class="notification-text-area">
             <div class="notification-text-content">
               <strong class="name">Jacob Thompson</strong> has joined your group
-              <a class="group">Chess Club</a>
+              <a href="" class="group">Chess Club</a>
+              <span class="unread-indicator"></span>
             </div>
             <p class="timestamp">1 day ago</p>
           </div>
@@ -84,14 +86,15 @@
           <div class="notification-text-area">
             <div class="notification-text-content">
               <strong class="name">Rizky Hasanuddin</strong> sent you a private
-              message
-              <p class="timestamp">5 days ago</p>
-              <p class="private-message">
-                Hello, thanks for setting up the Chess Club. I've been a
-                mstrongber for a few weeks now and I'm already having lots of
-                fun and improving my game.
-              </p>
+              message<span class="unread-indicator"></span>
             </div>
+
+            <p class="timestamp">5 days ago</p>
+            <p class="private-message">
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
           </div>
         </li>
         <li>
@@ -103,7 +106,9 @@
             <div class="notification-text-content">
               <strong class="name">Kimberly Smith</strong> commented on your
               picture <img src="./assets/images/image-chess.webp" alt="" />
+              <span class="unread-indicator"></span>
             </div>
+
             <p class="timestamp">1 week ago</p>
           </div>
         </li>
@@ -118,7 +123,7 @@
               recent post
               <a class="post" href=""
                 >5 end-game strategies to increase your win rate</a
-              >
+              ><span class="unread-indicator"></span>
             </div>
             <p class="timestamp">2 weeks ago</p>
           </div>
@@ -128,7 +133,8 @@
           <div class="notification-text-area">
             <div class="notification-text-content">
               <strong class="name">Anna Kim</strong> left the group
-              <a href="" class="group">Chess Club</a>
+              <a href="" class="group">Chess Club</a
+              ><span class="unread-indicator"></span>
             </div>
             <p class="timestamp">2 weeks ago</p>
           </div>
@@ -140,7 +146,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="https://github.com/GuiceJoose">John Z</a>.
     </div>
   </body>
 </html>
