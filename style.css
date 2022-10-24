@@ -33,10 +33,28 @@ ul {
 }
 
 a {
-  color: blue;
   text-decoration: none; /* no underline */
 }
 
+a.name {
+  font-weight: bold;
+  color: hsl(224, 21%, 14%);
+}
+
+a.name:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+
+
+a.post, a.group{
+  color: hsl(219, 12%, 42%);
+  font-weight: bold;
+}
+a.post:hover, a.group:hover,a.post:focus, a.group:focus  {
+  color: hsl(219, 85%, 26%);
+  font-weight: bold;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -86,6 +104,19 @@ h1 {
   font-weight: bold;
 }
 
+.mark-all-as-read {
+  background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  color: hsl(219, 12%, 42%);
+}
+.mark-all-as-read:hover, :focus {
+  color: hsl(219, 85%, 26%)
+}
+
 strong {
   color: black;
 }
@@ -107,10 +138,19 @@ li.unread {
   background-color: hsl(210, 60%, 98%);
 }
 
+li img {
+  height: 50px;
+}
+
+
 .notification-text-area {
   margin-left: 1rem;
   font-size: 16px;
   color: hsl(219, 12%, 42%);
+}
+
+.picture {
+  margin-left: auto;
 }
 
 .notification-text-content {
@@ -137,6 +177,7 @@ li.unread {
   border-radius: 2.5px;
   margin-top: 0.25rem;
 }
+
 
 .timestamp {
   color: hsl(219, 14%, 63%);

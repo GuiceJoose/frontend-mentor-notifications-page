@@ -12,10 +12,10 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
-
+    <script src="script.js" defer></script>
     <title>Frontend Mentor | Notifications page</title>
 
-    <!-- Feel free to rstrongove these styles or customise in your own stylesheet 👍 -->
+    <!-- Feel free to raove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -34,7 +34,7 @@
           <div class="notifications-total">3</div>
         </div>
 
-        <div class="mark-all-as-read">Mark all as read</div>
+        <button class="mark-all-as-read">Mark all as read</button>
       </header>
       <ul>
         <li class="unread">
@@ -44,7 +44,7 @@
           />
           <div class="notification-text-area">
             <div class="notification-text-content">
-              <strong class="name">Mark Webber</strong> reacted to your recent
+              <a class="name" href="">Mark Webber</a> reacted to your recent
               post <a href="" class="post"> My first tournament today! </a>
               <span class="unread-indicator"></span>
             </div>
@@ -58,7 +58,7 @@
           />
           <div class="notification-text-area">
             <div class="notification-text-content">
-              <strong class="name">Angela Gray</strong> followed you
+              <a class="name" href="">Angela Gray</a> followed you
               <span class="unread-indicator"></span>
             </div>
             <p class="timestamp">5m ago</p>
@@ -71,7 +71,7 @@
           />
           <div class="notification-text-area">
             <div class="notification-text-content">
-              <strong class="name">Jacob Thompson</strong> has joined your group
+              <a class="name" href="">Jacob Thompson</a> has joined your group
               <a href="" class="group">Chess Club</a>
               <span class="unread-indicator"></span>
             </div>
@@ -85,7 +85,7 @@
           />
           <div class="notification-text-area">
             <div class="notification-text-content">
-              <strong class="name">Rizky Hasanuddin</strong> sent you a private
+              <a class="name" href="">Rizky Hasanuddin</a> sent you a private
               message<span class="unread-indicator"></span>
             </div>
 
@@ -104,13 +104,14 @@
           />
           <div class="notification-text-area">
             <div class="notification-text-content">
-              <strong class="name">Kimberly Smith</strong> commented on your
-              picture <img src="./assets/images/image-chess.webp" alt="" />
+              <a class="name" href="">Kimberly Smith</a> commented on your
+              picture 
               <span class="unread-indicator"></span>
             </div>
 
             <p class="timestamp">1 week ago</p>
           </div>
+          <img class="picture" src="./assets/images/image-chess.webp" alt="" />
         </li>
         <li>
           <img
@@ -119,7 +120,7 @@
           />
           <div class="notification-text-area">
             <div class="notification-text-content">
-              <strong class="name">Nathan Peterson</strong> reacted to your
+              <a class="name" href="">Nathan Peterson</a> reacted to your
               recent post
               <a class="post" href=""
                 >5 end-game strategies to increase your win rate</a
@@ -132,7 +133,7 @@
           <img src="./assets/images/avatar-anna-kim.webp" alt="Anna Kim" />
           <div class="notification-text-area">
             <div class="notification-text-content">
-              <strong class="name">Anna Kim</strong> left the group
+              <a class="name" href="">Anna Kim</a> left the group
               <a href="" class="group">Chess Club</a
               ><span class="unread-indicator"></span>
             </div>
