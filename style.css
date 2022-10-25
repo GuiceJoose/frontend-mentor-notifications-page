@@ -182,3 +182,10 @@ li img {
 .timestamp {
   color: hsl(219, 14%, 63%);
 }
+
+@media (max-width: 800px) {
+  main {
+    width: 100%;
+    margin: 0;
+  }
+}
